@@ -64,7 +64,7 @@
 &kp TILDE   &kp NUMBER_1          &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4   &kp NUMBER_5      &kp NUMBER_6        &kp NUMBER_7      &kp N8             &kp NUMBER_9     &kp N0                 &kp BSLH
 &kp ESCAPE  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LESS_THAN  &kp MINUS         &kp PLUS            &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp PIPE
 &kp LSHFT   &kp EXCLAMATION       &kp AT_SIGN     &kp HASH          &kp DOLLAR     &kp PERCENT       &kp CARET           &kp AMPS          &kp ASTERISK       &kp UNDERSCORE   &kp EQUAL              &kp RIGHT_SHIFT
-                                                  &trans            &trans         &tp LALT SPACE    &tp LEFT_ALT ENTER  &kp LEFT_CONTROL  &kp LEFT_META
+                                                  &trans            &trans         &tp LALT ENTER    &tp LEFT_ALT SPACE  &kp LEFT_CONTROL  &kp LEFT_META
             >;
         };
 
