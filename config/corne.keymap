@@ -23,6 +23,20 @@
 
             label = "TMUX_PRFX";
         };
+
+        screenshot_mac: screenshot_mac {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_SHIFT &kp LEFT_COMMAND>,
+                <&macro_tap>,
+                <&kp NUMBER_4>,
+                <&macro_release>,
+                <&kp LCTRL &kp LEFT_SHIFT &kp LEFT_META>;
+
+            label = "SCREENSHOT_MAC";
+        };
     };
 
     combos {
@@ -32,6 +46,11 @@
             timeout-ms = <50>;
             key-positions = <14 15>;
             bindings = <&tmux_prfx>;
+        };
+
+        screenshot_mac {
+            bindings = <&screenshot_mac>;
+            key-positions = <10 11>;
         };
     };
 
