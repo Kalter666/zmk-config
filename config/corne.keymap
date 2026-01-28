@@ -98,10 +98,10 @@
 
         layer_below {
             bindings = <
-&kp GRAVE     &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                  &kp N6     &kp N7    &kp N8    &kp N9     &kp N0     &kp BSLH
-&trans        &kp LPAR  &kp LBRC  &kp LBKT  &kp LT    &kp MINUS               &kp PLUS   &kp GT    &kp RBKT  &kp RBRC   &kp RPAR   &kp PIPE
-&kp QUESTION  &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT               &kp CARET  &kp AMPS  &kp STAR  &kp UNDER  &kp EQUAL  &mo 2
-                                  &trans    &trans    &mt LEFT_SHIFT ENTER    &kp SPACE  &kp DEL   &trans
+&kp GRAVE         &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                  &kp N6     &kp N7    &kp N8    &kp N9     &kp N0     &kp BSLH
+&trans            &kp LPAR  &kp LBRC  &kp LBKT  &kp LT    &kp MINUS               &kp PLUS   &kp GT    &kp RBKT  &kp RBRC   &kp RPAR   &kp PIPE
+&kp LS(NUMBER_7)  &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT               &kp CARET  &kp AMPS  &kp STAR  &kp UNDER  &kp EQUAL  &mo 2
+                                      &trans    &trans    &mt LEFT_SHIFT ENTER    &kp SPACE  &kp DEL   &trans
             >;
         };
 
